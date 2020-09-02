@@ -1,0 +1,276 @@
+CRITICAL - 2020-08-13 02:41:36 --> Unknown column 'product_id' in 'where clause'
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Database/BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Models/ProductModel.php(40): CodeIgniter\Database\BaseBuilder->delete()
+#5 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Controllers/Product.php(115): App\Models\ProductModel->hapus()
+#6 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Product->delete()
+#7 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#11 {main}
+CRITICAL - 2020-08-13 02:41:44 --> Unknown column 'product_id' in 'where clause'
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Database/BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Models/ProductModel.php(40): CodeIgniter\Database\BaseBuilder->delete()
+#5 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Controllers/Product.php(115): App\Models\ProductModel->hapus()
+#6 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Product->delete()
+#7 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#11 {main}
+CRITICAL - 2020-08-13 02:43:07 --> Unknown column 'product_id' in 'where clause'
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Database/BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Models/ProductModel.php(40): CodeIgniter\Database\BaseBuilder->delete()
+#5 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Controllers/Product.php(115): App\Models\ProductModel->hapus()
+#6 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Product->delete()
+#7 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#11 {main}
+CRITICAL - 2020-08-13 03:11:37 --> Undefined property: stdClass::$products_foto
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Views/layout-backend/pages/product/v_update.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/View/View.php(246): include('/media/egova/pr...')
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Views/index-backend.php(5): view()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/View/View.php(246): include('/media/egova/pr...')
+#5 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Common.php(1119): CodeIgniter\View\View->render()
+#6 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Controllers/Product.php(86): view()
+#7 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Product->update()
+#8 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#9 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#12 {main}
+CRITICAL - 2020-08-13 03:13:10 --> The original file is not a valid file.
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/HTTP/Files/UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Controllers/Product.php(67): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Product->update()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#7 {main}
+CRITICAL - 2020-08-13 03:14:30 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Product->update()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#5 {main}
+CRITICAL - 2020-08-13 03:14:36 --> Cannot access protected property CodeIgniter\HTTP\Files\UploadedFile::$path
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Product->update()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#5 {main}
+CRITICAL - 2020-08-13 03:15:18 --> Cannot access protected property CodeIgniter\HTTP\Files\UploadedFile::$name
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Product->update()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#5 {main}
+CRITICAL - 2020-08-13 03:15:50 --> Undefined property: CodeIgniter\HTTP\Files\UploadedFile::$pathName
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Controllers/Product.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Product->update()
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#6 {main}
+CRITICAL - 2020-08-13 03:17:55 --> Undefined property: CodeIgniter\HTTP\Files\UploadedFile::$fileName
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Controllers/Product.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Product->update()
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#6 {main}
+CRITICAL - 2020-08-13 03:19:48 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Product->update()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#5 {main}
+CRITICAL - 2020-08-13 03:19:55 --> Cannot access protected property CodeIgniter\HTTP\Files\UploadedFile::$name
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Product->update()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#5 {main}
+CRITICAL - 2020-08-13 03:44:45 --> Call to undefined method App\Models\GalleryModel::add
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Controllers/Gallery.php(102): CodeIgniter\Model->__call()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Gallery->store()
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#6 {main}
+CRITICAL - 2020-08-13 04:19:59 --> Class 'App\Models\RentModel' not found
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#5 {main}
+CRITICAL - 2020-08-13 08:41:02 --> Class 'App\Models\RentModel' not found
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#5 {main}
+CRITICAL - 2020-08-13 08:42:40 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, bool given, called in /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Models/ProductModel.php on line 35
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Models/ProductModel.php(35): CodeIgniter\Database\BaseBuilder->update()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Controllers/Product.php(69): App\Models\ProductModel->edit()
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Product->update()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#7 {main}
+CRITICAL - 2020-08-13 08:43:44 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, bool given, called in /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Models/ProductModel.php on line 35
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Models/ProductModel.php(35): CodeIgniter\Database\BaseBuilder->update()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Controllers/Product.php(70): App\Models\ProductModel->edit()
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Product->update()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#7 {main}
+CRITICAL - 2020-08-13 08:58:36 --> The original file is not a valid file.
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/HTTP/Files/UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Controllers/Product.php(68): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Product->update()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#7 {main}
+CRITICAL - 2020-08-13 09:15:11 --> Undefined variable: rents
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Views/layout-backend/pages/gallery/v_update.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/View/View.php(246): include('/media/egova/pr...')
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Views/index-backend.php(5): view()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/View/View.php(246): include('/media/egova/pr...')
+#5 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Common.php(1119): CodeIgniter\View\View->render()
+#6 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Controllers/Gallery.php(76): view()
+#7 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Gallery->update()
+#8 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#9 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#12 {main}
+CRITICAL - 2020-08-13 09:15:25 --> Call to undefined method App\Models\NewsModel::add
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Controllers/News.php(103): CodeIgniter\Model->__call()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\News->store()
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#6 {main}
+CRITICAL - 2020-08-13 19:05:48 --> Class 'App\Models\RentModel' not found
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#5 {main}
+CRITICAL - 2020-08-13 19:05:52 --> Class 'App\Models\RentModel' not found
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#5 {main}
+CRITICAL - 2020-08-13 22:41:25 --> Undefined property: App\Controllers\Home::$Contact
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Controllers/Home.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#6 {main}
+CRITICAL - 2020-08-13 23:17:38 --> Undefined property: stdClass::$contact_wa
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Views/layout-frontend/pages/home.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/View/View.php(246): include('/media/egova/pr...')
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Views/index-frontend.php(9): view()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/View/View.php(246): include('/media/egova/pr...')
+#5 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Common.php(1119): CodeIgniter\View\View->render()
+#6 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Controllers/Home.php(43): view()
+#7 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#8 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#9 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#12 {main}
+CRITICAL - 2020-08-13 23:17:46 --> Undefined variable: contacts
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Views/layout-frontend/pages/home.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/View/View.php(246): include('/media/egova/pr...')
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Views/index-frontend.php(9): view()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/View/View.php(246): include('/media/egova/pr...')
+#5 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Common.php(1119): CodeIgniter\View\View->render()
+#6 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Controllers/Home.php(43): view()
+#7 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#8 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#9 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#12 {main}
+CRITICAL - 2020-08-13 23:17:55 --> Undefined variable: contacts
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Views/layout-frontend/pages/home.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/View/View.php(246): include('/media/egova/pr...')
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Views/index-frontend.php(9): view()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/View/View.php(246): include('/media/egova/pr...')
+#5 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Common.php(1119): CodeIgniter\View\View->render()
+#6 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Controllers/Home.php(43): view()
+#7 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#8 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#9 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#12 {main}
+CRITICAL - 2020-08-13 23:18:31 --> Undefined variable: contacts
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Views/layout-frontend/pages/home.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/View/View.php(246): include('/media/egova/pr...')
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Views/index-frontend.php(9): view()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/View/View.php(246): include('/media/egova/pr...')
+#5 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Common.php(1119): CodeIgniter\View\View->render()
+#6 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Controllers/Home.php(43): view()
+#7 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#8 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#9 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#12 {main}
+CRITICAL - 2020-08-13 23:32:36 --> Undefined property: stdClass::$cara
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Views/layout-frontend/pages/home.php(176): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/View/View.php(246): include('/media/egova/pr...')
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Views/index-frontend.php(9): view()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/View/View.php(246): include('/media/egova/pr...')
+#5 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Common.php(1119): CodeIgniter\View\View->render()
+#6 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Controllers/Home.php(43): view()
+#7 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#8 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#9 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#12 {main}

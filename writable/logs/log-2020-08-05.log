@@ -1,0 +1,175 @@
+CRITICAL - 2020-08-05 02:53:37 --> Invalid file: layout-backend/pages/trips/v_update.php
+#0 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/app/Views/index-backend.php(5): view()
+#3 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/View/View.php(246): include('/media/egova/pr...')
+#4 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Common.php(1119): CodeIgniter\View\View->render()
+#5 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Trip.php(78): view()
+#6 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Trip->update()
+#7 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#11 {main}
+CRITICAL - 2020-08-05 03:29:33 --> Undefined variable: trip
+#0 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/app/Views/layout-backend/pages/gallery/v_detail.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/View/View.php(246): include('/media/egova/pr...')
+#2 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/app/Views/index-backend.php(5): view()
+#4 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/View/View.php(246): include('/media/egova/pr...')
+#5 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Common.php(1119): CodeIgniter\View\View->render()
+#6 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Gallery.php(35): view()
+#7 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Gallery->index()
+#8 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#9 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#12 {main}
+CRITICAL - 2020-08-05 03:42:02 --> Declaration of App\Models\GalleryModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = NULL, $data = NULL): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-05 03:42:12 --> Declaration of App\Models\GalleryModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = NULL, $data = NULL): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-05 03:44:30 --> The original file is not a valid file.
+#0 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/HTTP/Files/UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Gallery.php(99): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Gallery->store()
+#3 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#7 {main}
+CRITICAL - 2020-08-05 04:17:46 --> The original file is not a valid file.
+#0 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/HTTP/Files/UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Gallery.php(100): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Gallery->store()
+#3 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#7 {main}
+CRITICAL - 2020-08-05 04:18:11 --> The original file is not a valid file.
+#0 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/HTTP/Files/UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Gallery.php(100): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Gallery->store()
+#3 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#7 {main}
+CRITICAL - 2020-08-05 04:18:21 --> The original file is not a valid file.
+#0 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/HTTP/Files/UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Gallery.php(100): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Gallery->store()
+#3 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#7 {main}
+CRITICAL - 2020-08-05 04:18:54 --> The original file is not a valid file.
+#0 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/HTTP/Files/UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Gallery.php(100): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Gallery->store()
+#3 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#7 {main}
+CRITICAL - 2020-08-05 20:36:40 --> Class 'App\Database\Seeds\NewsSeeder' not found
+#0 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Database/Seed.php(124): CodeIgniter\Database\Seeder->call()
+#1 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CLI/Commands.php(100): CodeIgniter\Commands\Database\Seed->run()
+#2 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CLI/CommandRunner.php(107): CodeIgniter\CLI\Commands->run()
+#3 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CLI/CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index()
+#4 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap()
+#5 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CLI/Console.php(86): CodeIgniter\CodeIgniter->run()
+#8 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/spark(57): CodeIgniter\CLI\Console->run()
+#9 {main}
+CRITICAL - 2020-08-05 20:36:58 --> Class 'App\Database\Seeds\NewsSeeder' not found
+#0 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Database/Seed.php(124): CodeIgniter\Database\Seeder->call()
+#1 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CLI/Commands.php(100): CodeIgniter\Commands\Database\Seed->run()
+#2 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CLI/CommandRunner.php(107): CodeIgniter\CLI\Commands->run()
+#3 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CLI/CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index()
+#4 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap()
+#5 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CLI/Console.php(86): CodeIgniter\CodeIgniter->run()
+#8 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/spark(57): CodeIgniter\CLI\Console->run()
+#9 {main}
+CRITICAL - 2020-08-05 20:37:38 --> Class 'App\Database\Seeds\NewsSeeder' not found
+#0 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Database/Seed.php(124): CodeIgniter\Database\Seeder->call()
+#1 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CLI/Commands.php(100): CodeIgniter\Commands\Database\Seed->run()
+#2 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CLI/CommandRunner.php(107): CodeIgniter\CLI\Commands->run()
+#3 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CLI/CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index()
+#4 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap()
+#5 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CLI/Console.php(86): CodeIgniter\CodeIgniter->run()
+#8 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/spark(57): CodeIgniter\CLI\Console->run()
+#9 {main}
+CRITICAL - 2020-08-05 21:46:49 --> Class 'App\Database\Seeds\ContactSeeder' not found
+#0 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Database/Seed.php(124): CodeIgniter\Database\Seeder->call()
+#1 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CLI/Commands.php(100): CodeIgniter\Commands\Database\Seed->run()
+#2 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CLI/CommandRunner.php(107): CodeIgniter\CLI\Commands->run()
+#3 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CLI/CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index()
+#4 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap()
+#5 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CLI/Console.php(86): CodeIgniter\CodeIgniter->run()
+#8 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/spark(57): CodeIgniter\CLI\Console->run()
+#9 {main}
+CRITICAL - 2020-08-05 21:47:01 --> Class 'App\Database\Seeds\ContactSeeder' not found
+#0 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Database/Seed.php(124): CodeIgniter\Database\Seeder->call()
+#1 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CLI/Commands.php(100): CodeIgniter\Commands\Database\Seed->run()
+#2 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CLI/CommandRunner.php(107): CodeIgniter\CLI\Commands->run()
+#3 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CLI/CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index()
+#4 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap()
+#5 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CLI/Console.php(86): CodeIgniter\CodeIgniter->run()
+#8 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/spark(57): CodeIgniter\CLI\Console->run()
+#9 {main}
+CRITICAL - 2020-08-05 22:46:58 --> Undefined variable: contacts
+#0 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/app/Views/layout-backend/pages/profil/v_index.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/View/View.php(246): include('/media/egova/pr...')
+#2 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/app/Views/index-backend.php(5): view()
+#4 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/View/View.php(246): include('/media/egova/pr...')
+#5 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Common.php(1119): CodeIgniter\View\View->render()
+#6 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Profil.php(27): view()
+#7 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Profil->index()
+#8 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#9 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#12 {main}
+CRITICAL - 2020-08-05 22:47:22 --> Undefined variable: contacts
+#0 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/app/Views/layout-backend/pages/profil/v_index.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/View/View.php(246): include('/media/egova/pr...')
+#2 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/app/Views/index-backend.php(5): view()
+#4 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/View/View.php(246): include('/media/egova/pr...')
+#5 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Common.php(1119): CodeIgniter\View\View->render()
+#6 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Profil.php(27): view()
+#7 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Profil->index()
+#8 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#9 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#12 {main}
+CRITICAL - 2020-08-05 22:48:01 --> Undefined variable: contacts
+#0 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/app/Views/layout-backend/pages/profil/v_index.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/View/View.php(246): include('/media/egova/pr...')
+#2 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/app/Views/index-backend.php(5): view()
+#4 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/View/View.php(246): include('/media/egova/pr...')
+#5 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Common.php(1119): CodeIgniter\View\View->render()
+#6 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/app/Controllers/Profil.php(27): view()
+#7 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(918): App\Controllers\Profil->index()
+#8 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#9 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /media/egova/programming/Local Server/Pro-Travel-PAI-Sumatera-Tours/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#12 {main}

@@ -1,0 +1,46 @@
+0. Login Menggunakan Package myth-auth : reset password egovaflavia@gmail.com / Egova Riva Gustino
+
+1. Product
+    product_id
+    product_nama
+    product_desc
+    product_spec
+    product_foto
+    product_harga null
+
+
+2. Gallery 
+    gallery_id
+    gallery_nama
+    gallery_tanggal
+    gallery_foto
+
+3. Profil
+    profil_id
+    profil_nama
+    profil_tentang
+
+4. News
+    news_id
+    news_judul
+    news_tgl
+    news_isi
+    news_foto
+    
+5. Contact
+    contact_facebook
+    contact_twitter
+    contact_instagram
+    contact_email
+    contact_alamat
+    contact_no_tlp
+    contact_no_wa
+
+6. Cara
+    cara_id
+    cara_order
+
+
+
+
+

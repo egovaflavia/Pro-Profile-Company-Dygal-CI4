@@ -1,0 +1,25 @@
+CRITICAL - 2020-08-19 08:49:46 --> Undefined variable: slider
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Views/layout-frontend/_partials/banner.php(2): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/View/View.php(246): include('/media/egova/pr...')
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Views/index-frontend.php(9): view()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/View/View.php(246): include('/media/egova/pr...')
+#5 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Common.php(1119): CodeIgniter\View\View->render()
+#6 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Controllers/Home.php(44): view()
+#7 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#8 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#9 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#11 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#12 {main}
+CRITICAL - 2020-08-19 16:40:02 --> Unable to connect to the database.
+#0 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Database/BaseBuilder.php(2019): CodeIgniter\Database\BaseConnection->query()
+#2 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Models/ProfilModel.php(21): CodeIgniter\Database\BaseBuilder->getWhere()
+#3 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/app/Controllers/Home.php(36): App\Models\ProfilModel->get()
+#4 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 /media/egova/programming/htdocs/Pro-Profil-Dist-Rak/system/Commands/Server/rewrite.php(34): require_once('/media/egova/pr...')
+#9 {main}
